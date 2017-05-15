@@ -78,8 +78,7 @@
 header {
     width: 100%;
     height: 572px;
-    background-color: red;
-    background-image: url(../img/coffe1.jpg);
+    background-image: url(coffe1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
