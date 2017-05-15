@@ -1,0 +1,433 @@
+
+@font-face {
+    font-family: 'geometriaregular';
+    src: url('../font/brownfox_-_geometria-webfont.woff2') format('woff2'),
+         url('../font/brownfox_-_geometria-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'geometria_lightlight';
+    src: url('../font/brownfox_-_geometria_light-webfont.woff2') format('woff2'),
+         url('../font/brownfox_-_geometria_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'geometrialight';
+    src: url('../font/brownfox_-_geometria_light-webfont.woff2') format('woff2'),
+         url('../font/brownfox_-_geometria_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'geometria_mediummedium';
+    src: url('../font/brownfox_-_geometria_medium-webfont.woff2') format('woff2'),
+         url('../font/brownfox_-_geometria_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'geometria_mediummedium';
+    src: url('../font/lato-webfont.woff2') format('woff2'),
+         url('../font/lato-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('../lato-webfont.woff2') format('woff2'),
+         url('../lato-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+.wrapper{
+	width: 100%;
+	min-width: 1349px;
+	
+
+
+}
+
+header {
+    width: 100%;
+    height: 572px;
+    background-image: url(../img/coffe1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.top{
+	width: 100%;
+	height: 72px;
+	background-color: white;
+
+}
+
+.menu{
+	width: 70%;
+	height: inherit;
+	margin: 0 auto;
+}
+
+.menu img{
+	float: left;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+.menu ul{
+	float: right;
+
+	margin-top: 30px;
+}
+
+.menu li{
+	float: left;
+	margin-right: 15px;
+	margin-left: 15px
+}
+
+.menu a{
+	text-decoration: none;
+	color: #909090;
+	font-family:'geometriaregular';
+	text-transform: uppercase;
+	font-size: 14px;
+
+}
+
+.menu a:hover{
+	border-bottom: 1px solid #3fc0f0;
+	color: #3fc0f0;
+	padding-bottom: 7px;
+}
+
+.menu .star_free{
+	border: 1px solid #3fc0f0;
+	color: #3fc0f0;
+	padding: 7px;
+}
+
+.post1{
+   
+    text-align: center;
+    margin-top: 100px;
+    font-size: 44px; 
+    font-family:'geometriaregular';
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.post2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 44px; 
+    font-family:'geometriaregular';
+    font-weight: bold;
+    color: #fff;
+
+}
+
+
+.post3{
+    width: 715px;
+   text-align: center;
+   margin-top: 50px;
+   margin-left: 320px;
+    font-size: 14px; 
+    font-family:'geometriaregular';
+    color: #fff;
+    text-align: center;
+    line-height: 22px;
+
+}
+
+.one{
+	width: 100%;
+	height: 560px;
+	#dfdfdf
+}
+
+.left-section{
+	float: left;
+	margin-left: 190px;
+	margin-top: 100px;
+}
+
+.right_section{
+	width: 40%;
+	height: inherit;
+	float: right;
+	
+
+
+}
+
+.right_section h2{
+	font-size: 18px; 
+    font-family:'geometriaregular';
+    font-weight: bold;
+    margin-top: 200px;
+}
+
+.right_section p{
+	width: 530px;
+	margin-top: 20px;
+	font-size: 14px; 
+    font-family:'geometriaregular';
+    color: grey;
+    line-height: 22px;
+}
+
+.two{
+	width: 100%;
+	height: 850px;
+	border-bottom: 1px solid #dfdfdf;
+
+	
+}
+
+.two h2{
+	font-size: 18px; 
+    font-family:'geometriaregular';
+    font-weight: bold;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.two p{
+	width: 670px;
+	font-size: 14px; 
+    font-family:'geometriaregular';
+    color: grey;
+    line-height: 22px;
+     text-align: center;
+     margin: 20px auto;
+ }
+
+ .two img{
+ 	margin-left: 100px;
+ 	margin-top: 80px;
+ }
+
+ .three{
+ 	width: 100%;
+ 	height: 800px;
+ 	border-bottom: 1px solid #dfdfdf;
+ 	
+ }
+
+ .three_left_section{
+	float: left;
+	width: 40%;
+	height: inherit;
+	}
+
+.three_right_section{
+	width: 40%;
+	height: inherit;
+	float: right;
+	margin-right: 150px;
+	margin-top: 100px;
+}
+
+.three_left_section h2{
+
+    font-size: 18px; 
+    font-family:'geometriaregular';
+    font-weight: bold;
+    margin-top: 300px;
+    text-align: center;
+}
+
+.three_left_section p{
+	width: 400px;
+	margin-top: 20px;
+	font-size: 14px; 
+    font-family:'geometriaregular';
+    color: grey;
+    line-height: 22px;
+    margin-left: 135px;
+}
+
+
+
+ .four{
+ 	width: 100%;
+ 	height: 700px;
+ 	border-bottom: 1px solid #dfdfdf;
+ 	
+ }
+
+ .four h2{
+	font-size: 18px; 
+    font-family:'geometriaregular';
+    font-weight: bold;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.four p{
+	width: 600px;
+	font-size: 14px; 
+    font-family:'geometriaregular';
+    color: grey;
+    line-height: 22px;
+     text-align: center;
+     margin: 20px auto;
+ }
+
+
+
+.four img{
+	margin-top: 30px;
+	margin-left: 185px;
+
+}
+
+.five{
+	border-bottom: 1px solid #dfdfdf;
+	width: 100%;
+	height: 600px;
+}
+.five_left_section{
+	float: left;
+	width: 40%;
+	height: inherit;
+	margin-top: 100px;
+	margin-left: 100px;
+	}
+
+.five_right_section{
+	width: 40%;
+	height: inherit;
+	float: right;
+	margin-right: 100px;
+	margin-top: 100px;
+}
+
+.five_right_section h2{
+	font-size: 18px; 
+    font-family:'geometriaregular';
+    font-weight: bold;
+    padding-top: 200px;
+
+   
+}
+
+.five_right_section p{
+	width: 400px;
+	font-size: 14px; 
+    font-family:'geometriaregular';
+    color: grey;
+    line-height: 22px;
+    margin-top: 20px;
+    
+    
+}
+
+.six{
+	width: 100%;
+	height: 300px;
+}
+
+.six h1{
+	margin-top: 80px;
+	font-size: 24px; 
+	font-weight: bold;
+    font-family:'geometriaregular';
+    text-align: center;
+
+}
+
+.six p{
+	margin: 20px auto;
+	font-size: 14px; 
+	color: grey;
+    font-family:'geometriaregular';
+    text-align: center;
+
+}
+
+.six a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	border: 1px ;
+	padding: 10px;
+	background-color: #63bcef;
+    font-family:'geometriaregular';
+    text-align: center;
+    margin-left: 575px;
+
+
+
+}
+
+
+footer{
+	width: 100%;
+	height: 72px;
+	background-color: #465155;
+}
+
+.footer_wrap{
+	width: 70%;
+	height: inherit;
+	margin: 0 auto;
+}
+
+.footer_wrap img{
+	float: left;
+	padding: 20px 10px 0px 30px;
+}
+
+.footer_wrap ul{
+	float: right;
+	margin-right: 100px;
+	margin-top: 30px;
+}
+
+.footer_wrap li{
+	float: left;
+	margin-right: 20px;
+	margin-left: 20px
+}
+
+.footer_wrap a{
+	text-decoration: none;
+	color: #909090;
+	font-family:'geometriaregular';
+	text-transform: uppercase;
+	font-size: 14px;
+
+}
